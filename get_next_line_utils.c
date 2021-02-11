@@ -6,7 +6,7 @@
 /*   By: da-lee <da-lee@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/27 16:37:23 by da-lee            #+#    #+#             */
-/*   Updated: 2021/02/09 10:01:25 by da-lee           ###   ########.fr       */
+/*   Updated: 2021/02/11 19:00:39 by da-lee           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -107,4 +107,3 @@ char				*ft_strjoin(char const *s1, char const *s2)
 	str[i + j] = 0;
 	return (str);
 }
-

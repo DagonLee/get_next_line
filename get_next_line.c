@@ -6,7 +6,7 @@
 /*   By: da-lee <da-lee@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/08 19:13:28 by da-lee            #+#    #+#             */
-/*   Updated: 2021/02/09 11:50:51 by da-lee           ###   ########.fr       */
+/*   Updated: 2021/02/11 18:59:59 by da-lee           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ char				*ft_line_process(char *save, char **line)
 		save = ft_strdup(tmp);
 		free(tmp);
 	}
-	else 
+	else
 	{
 		*line = save;
 		save = 0;
