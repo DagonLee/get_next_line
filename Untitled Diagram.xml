@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-12T07:39:33.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="O9Kl2Ca1W3m6tLunImGn" version="14.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-12T07:42:31.038Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="40q4U-UP1wv3uMU3xmav" version="14.3.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="462" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -117,8 +117,11 @@
             <mxPoint x="371.25" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b5YMl4RsyUBjnTLHCKaB-60" value="&lt;font style=&quot;font-size: 14px&quot; color=&quot;#ff3333&quot;&gt;&lt;b&gt;ft_substr&lt;/b&gt;&lt;/font&gt;을 이용&lt;br&gt;*line에는 개행 이전까지의 문자열 저장&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="b5YMl4RsyUBjnTLHCKaB-60" value="&lt;font style=&quot;font-size: 14px&quot; color=&quot;#ff3333&quot;&gt;&lt;b&gt;ft_substr&lt;/b&gt;&lt;/font&gt;을 이용&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;*line에는 개행 이전&lt;/font&gt;&lt;/b&gt;까지의 문자열 저장&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;save 에는 개행이후&lt;/b&gt;&lt;/font&gt; 문자열 저장" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1160" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b5YMl4RsyUBjnTLHCKaB-62" value="&lt;span&gt;*주의*&lt;/span&gt;&lt;br&gt;&lt;span&gt;개행이 eof직전에 있는경우&lt;/span&gt;&lt;br&gt;&lt;span&gt;ex) 123\n&lt;/span&gt;&lt;br&gt;&lt;span&gt;이 경우에는 save에 빈 문자열을 할당하여 예외 처리&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Comic Sans MS;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1110" y="70" width="230" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
