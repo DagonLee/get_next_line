@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-12T07:42:31.038Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="40q4U-UP1wv3uMU3xmav" version="14.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-12T07:44:38.358Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="LgAuzsl5U7XYU7eINZmm" version="14.3.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="462" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,6 +122,16 @@
         </mxCell>
         <mxCell id="b5YMl4RsyUBjnTLHCKaB-62" value="&lt;span&gt;*주의*&lt;/span&gt;&lt;br&gt;&lt;span&gt;개행이 eof직전에 있는경우&lt;/span&gt;&lt;br&gt;&lt;span&gt;ex) 123\n&lt;/span&gt;&lt;br&gt;&lt;span&gt;이 경우에는 save에 빈 문자열을 할당하여 예외 처리&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Comic Sans MS;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1110" y="70" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="b5YMl4RsyUBjnTLHCKaB-63" value="개행이 없으므로 &lt;br&gt;EOF에 다다랐다고 판단" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="850" y="360" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b5YMl4RsyUBjnTLHCKaB-64" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b5YMl4RsyUBjnTLHCKaB-56" target="b5YMl4RsyUBjnTLHCKaB-63">
+          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="730" y="390" as="sourcePoint" />
+            <mxPoint x="927" y="310" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
